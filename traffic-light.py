@@ -29,10 +29,13 @@ try:
 	while True:
 		red(True)
 		sleep(1)
+		red(False)
 		yellow(True)
 		sleep(1)
+		yellow(False)
 		green(True)
 		sleep(1)
+		green(False)
 except KeyboardInterrupt:
 	print("KeyboardInterrupt detected.")
 finally:
